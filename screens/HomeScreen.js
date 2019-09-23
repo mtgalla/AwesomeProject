@@ -23,7 +23,7 @@ export default function HomeScreen() {
             source={
               __DEV__
                 ? require('../assets/images/robot-dev.png')
-                : require('../assets/images/robot-prod.png')
+                : require('../assets/images/closet.png')
             }
             style={styles.welcomeImage}
           />
@@ -40,7 +40,7 @@ export default function HomeScreen() {
           </View>
 
           <Text style={styles.getStartedText}>
-            Change this text and your app will automatically reload.
+            Hello World!
           </Text>
         </View>
 
